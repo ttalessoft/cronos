@@ -1,0 +1,19 @@
+{
+  "name": "cronos",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/ttalessoft/cronos.git",
+  "author": "ttales gold roger <ttalessoft@gmail.com>",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "dev:debug": "nodemon --inspect src/server.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2",
+    "sucrase": "^3.12.1"
+  }
+}
