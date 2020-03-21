@@ -1,3 +1,33 @@
 {
-  "editor.fontSize": 20
+  // Configura o tamanho e família da fonte
+  "editor.fontSize": 20,
+  "editor.lineHeight": 24,
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+
+  // Aplica linhas verticais para lembrar de quebrar linha em códigos muito grandes
+  "editor.rulers": [80, 120],
+  "eslint.autoFixOnSave": true,
+  "editor.formatOnSave": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "eslint.validate": [
+    {
+      "language": "javascript",
+      "autoFix": "true"
+    },
+    {
+      "language": "javascriptreact",
+      "autoFix": "true"
+    },
+    {
+      "language": "typescript",
+      "autoFix": "true"
+    },
+    {
+      "language": "typescriptreact",
+      "autoFix": "true"
+    },
+  ]
 }
