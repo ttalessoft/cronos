@@ -26,7 +26,7 @@ class User extends Model {
 
   // Associa uma tabela a outra
   static associate(models) {
-    this.belongsTo(models.File, { foreignKey: 'avatar_id' });
+    this.belongsTo(models.File, { foreignKey: 'avatar_id', as: 'avatar' });
   }
 
   // Verifica o password informado
